@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+#intro {
+  text-align: center;
+  background-color: #cce7ff; /* Light blue from the palette */
+  color: #333; /* Dark text for readability */
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d3f8e2; /* Light green from the palette */
+  color: #333; /* Dark text for readability */
+}
+
+#servicesCont {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.service {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 300px;
+  color: #333; /* Dark text for readability */
+}
+
+#bios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #d4a5a5; /* Light pink from the palette */
+  color: #333; /* Dark text for readability */
+}
+
+#biosCont {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 300px;
+  color: #333; /* Dark text for readability */
+}
+
+.bio img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+#contact {
+  background-color: #f8d4d8; /* Light purple/pink from the palette */
+  color: #333; /* Dark text for readability */
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact ul li {
+  margin: 0.5rem 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
